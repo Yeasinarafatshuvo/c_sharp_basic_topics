@@ -33,6 +33,7 @@ namespace CSharpBasic
                 case "fileio": FileIo.Run(); break;
                 case "tuples": Tuples.Run(); break;
                 case "nullabletypes": NullableTypes.Run(); break;
+                case "practice": Practice.Run(); break;
                 default:
                     Console.WriteLine($"Topic '{topic}' not found.");
                     break;
